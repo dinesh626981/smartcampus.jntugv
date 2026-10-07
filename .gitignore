@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+python_env/
+backend/venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments & local tools
+node/
+installers/
+node.msi
+node.zip
+python.exe
+python.zip
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Database & Uploads
+*.sqlite3
+*.db
+backend/college_system.db
+backend/uploads/*
+!backend/uploads/.gitkeep
+instance/
+
+# Logs & temp test scripts
+*.log
+*.txt
+!requirements.txt
+backend_out.txt
+flask_test_out.txt
+reg_out.txt
+server_out.txt
+out2.txt
+ver.txt
+debug_reg.py
+flask_test.py
+query_test.py
+test_reg.py
+list_models.py
+run_backend.js
+run_frontend.bat
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db

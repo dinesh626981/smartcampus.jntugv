@@ -1,0 +1,24 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Production build outputs
+dist/
+dist-ssr/
+*.local
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Deployment platforms
+.vercel
+
+# Editor & OS artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
