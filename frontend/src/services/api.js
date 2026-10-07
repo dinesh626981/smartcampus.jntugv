@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:5001/api';
+const API_BASE_URL = import.meta.env.BACKEND_API_URL || 'http://127.0.0.1:5001/api';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
@@ -201,10 +201,10 @@ export const adminService = {
       typeof departmentName === 'object'
         ? departmentName
         : {
-            department_name: departmentName,
-            department_code: departmentCode || departmentName.slice(0, 4).toUpperCase(),
-            description,
-          };
+          department_name: departmentName,
+          department_code: departmentCode || departmentName.slice(0, 4).toUpperCase(),
+          description,
+        };
     const response = await api.post('/admin/departments', payload);
     return response.data;
   },

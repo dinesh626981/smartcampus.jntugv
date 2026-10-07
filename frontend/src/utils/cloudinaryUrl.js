@@ -2,7 +2,7 @@
  * Utility to handle Cloudinary URL dynamic optimization and fallback paths.
  */
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:5001/api';
+const API_BASE_URL = import.meta.env.BACKEND_API_URL || 'http://127.0.0.1:5001/api';
 
 /**
  * Returns an optimized image URL.

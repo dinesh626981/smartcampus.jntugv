@@ -90,7 +90,7 @@ smart-college-system/
 │   ├── vite.config.js                 # Vite configuration with chunk splitting & proxy
 │   ├── vercel.json                    # Vercel SPA routing rules and cache headers
 │   ├── tailwind.config.js             # Material 3 Tailwind color extensions
-│   ├── .env                           # Frontend environment (VITE_API_URL, etc.)
+│   ├── .env                           # Frontend environment (BACKEND_API_URL, etc.)
 │   ├── .env.example                   # Frontend environment template
 │   ├── .eslintrc.cjs                  # ESLint frontend rules
 │   ├── .prettierrc                    # Prettier formatting rules
@@ -178,7 +178,7 @@ npm run dev
 2. Click **Add New...** > **Project** and select this repository.
 3. Set **Root Directory**: `frontend`.
 4. Add environment variables:
-   - `VITE_API_URL`: `https://your-backend.onrender.com/api`
+   - `BACKEND_API_URL`: `https://your-backend.onrender.com/api`
    - `VITE_GOOGLE_CLIENT_ID`: Your Google OAuth Client ID
 5. Click **Deploy**.
 

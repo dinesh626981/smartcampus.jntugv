@@ -7,7 +7,7 @@ import { StatusBadge, PriorityBadge } from '../ui/Badge';
 import EmptyState from '../ui/EmptyState';
 import { getOptimizedImageUrl } from '../../utils/cloudinaryUrl';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5001/api';
+const API_URL = import.meta.env.BACKEND_API_URL || 'http://localhost:5001/api';
 
 /**
  * Task queue table for departmental technicians with status updates and proof viewer.
